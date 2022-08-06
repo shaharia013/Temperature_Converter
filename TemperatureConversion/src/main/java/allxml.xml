@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:context="http://www.springframework.org/schema/context"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans
+                             http://www.springframework.org/schema/beans/spring-beans.xsd
+                             http://www.springframework.org/schema/context 
+                             http://www.springframework.org/schema/context/spring-context.xsd" >
+                             
+                           
+<!--     Celsius to Fahrenheit -->                      
+    <bean id = "celtofah"  class="com.shaharia.TemperatureConversion.Celsius_to_Fahrenheit"></bean>
+    
+<!--     Celsius to Kelvin -->
+    <bean id = "celtokel"  class="com.shaharia.TemperatureConversion.Celsius_to_Kelvin"></bean>
+    
+<!--     Fahrenheit to Celsius -->
+    <bean id = "fahtocel"  class="com.shaharia.TemperatureConversion.Fahrenheit_to_Celsius"></bean>
+    
+<!--     Fahrenheit to kelvin -->
+    <bean id = "fahtokel"  class="com.shaharia.TemperatureConversion.Fahrenheit_to_Kelvin"></bean>
+    
+<!--     Kelvin to Celsius -->
+    <bean id = "keltocel"  class="com.shaharia.TemperatureConversion.Kelvin_to_Celsius"></bean>
+    
+<!--     Kelvin to Fahreheit -->
+    <bean id = "keltofah"  class="com.shaharia.TemperatureConversion.Kelvin_to_Fahrenheit"></bean>
+
+
+
+
+</beans>
